@@ -1,0 +1,9 @@
+CMakeFiles/
+CMakeCache.txt
+# Build artifacts
+code
+*.o
+*.out
+*.exe
+build/
+
