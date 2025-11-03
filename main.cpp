@@ -27,7 +27,7 @@ int main() {
         if (streak == 0) {
             long long best_score = LLONG_MIN; char best_op = 'C'; int best_bricks_1 = 0;
 
-            bool deep = (ans.size() % 20 == 0); // periodic deeper lookahead
+            bool deep = (ans.size() % 10 == 0); // more frequent deeper lookahead
             if (!deep) {
                 // 1-step lookahead
                 for (char op : OPS) {
