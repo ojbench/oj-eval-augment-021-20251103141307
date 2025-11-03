@@ -1,4 +1,4 @@
-CXX := g++-13
+CXX ?= g++
 CXXFLAGS := -O2 -std=gnu++17 -pipe -s -Wall
 
 all: code
